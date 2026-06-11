@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-    baseURL: "http://localhost:1010/v1",
+    baseURL: "https://obligatorio-dfs-self.vercel.app/v1",
     timeout: 5000
 });
 // Interceptor de request
